@@ -1,0 +1,5 @@
+查看redis状态：
+systemctl status redis
+
+重启redis服务：
+systemctl restart redis.service或者service redis restart
