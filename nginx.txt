@@ -1,0 +1,10 @@
+查看Nginx位置：
+ps -ef | grep nginx
+例如：/usr/local/nginx/sbin/nginx
+
+查看配置信息：
+Nginx位置（例如：/usr/local/nginx/sbin/nginx） -t
+
+重启Nginx服务：
+进入：/usr/local/nginx/sbin
+执行：sudo ./nginx -s reload
