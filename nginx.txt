@@ -8,3 +8,9 @@ Nginx位置（例如：/usr/local/nginx/sbin/nginx） -t
 重启Nginx服务：
 进入：/usr/local/nginx/sbin
 执行：sudo ./nginx -s reload
+
+启动：
+./nginx
+
+停止：
+./nginx -s stop
