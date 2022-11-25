@@ -39,7 +39,7 @@ flush privileges;
 
 
 启动rabbitmq:
-docker run -d --hostname=rabbitmqhost --name rabbitmq -p 5672:5672 -p 15672:15672 -v /dockerdata/rabbitmq/data:/var/lib/rabbitmq rabbitmq:management
+docker run -d --hostname=rabbitmqhost --name rabbitmq -d --restart=always -p 5672:5672 -p 15672:15672 -v /dockerdata/rabbitmq/data:/var/lib/rabbitmq rabbitmq:management
 
 安装管理页面：
 docker exec -it rabbitmq bash
